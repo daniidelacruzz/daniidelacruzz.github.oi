@@ -1,0 +1,87 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive; /* Cambiar el tipo de letra a Comic Sans MS */
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 20px; /* Bordes redondeados */
+    margin-right: 10px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Estilos para los bloques de contenido */
+.content-block {
+    margin-bottom: 40px;
+}
+
+.content-block img {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px;
+}
+
+.content-block h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-block p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el contenedor principal */
+#main-content {
+    background-color: #f0f0f0; /* Color de fondo para el contenedor principal */
+}
